@@ -6,7 +6,7 @@ public class Hexagono {
     }
 
     double areaHexagono(){
-        return (6*lado*(Math.sqrt(3/4)));
+        return (6*lado*(Math.sqrt(3.0/4.0)));
     }
 
     double perimetroHexagono(){

@@ -7,7 +7,7 @@ public class Cone {
         this.altura = altura;
     }
     double volumeCone(){
-        return (1/3) * 3.14 * (raio*raio) * altura;
+        return (1.0/3.0) * 3.14 * (raio*raio) * altura;
     }
     double areasuperficialCone(){
         return 3.14 * raio * (Math.sqrt((altura*altura)+(raio*raio)));

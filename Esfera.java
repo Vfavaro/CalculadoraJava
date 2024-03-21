@@ -9,6 +9,6 @@ public class Esfera {
     }
 
     double volumeEsfera (){
-        return ((4/3)*3.14) * (raio * raio * raio);
+        return ((4.0/3.0)*3.14) * (raio * raio * raio);
     }
 }

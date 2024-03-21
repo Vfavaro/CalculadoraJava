@@ -6,7 +6,7 @@ public class Triangulo {
     }
 
     double areaTriangulo(){
-        return lado * (Math.sqrt(3/4));
+        return lado * (Math.sqrt(3.0/4.0));
     }
 
     double perimetro(){
